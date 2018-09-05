@@ -1,0 +1,36 @@
+{
+  "orderMenuData": [
+    {
+      "name":"Personal Center",
+      "to": "/Order/commerce"
+    },
+    {
+      "name":"Notification",
+      "to": "/Notification"
+    },
+    {
+      "name":"My Order",
+      "to": "/Order/MyOrder/AllOrders"
+    },
+    {
+      "name":"My Account",
+      "to": "/My Account"
+    },
+    {
+      "name":"Favorites",
+      "to": "/Favorites"
+    },
+    {
+      "name":"Browsing History",
+      "to": "/Browsing History"
+    },
+    {
+      "name":"My Comments",
+      "to": "/My Comments"
+    },
+    {
+      "name":"Customer Service",
+      "to": "/Customer Service"
+    }
+  ]
+}

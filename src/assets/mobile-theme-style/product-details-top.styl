@@ -1,0 +1,67 @@
+.m-nav-box
+    overflow auto
+    flex-wrap nowrap
+    padding-bottom 0.6rem!important
+    margin-bottom -0.6rem!important
+    .nav-item
+        text-align center
+        padding 0.3rem 0.33rem
+        color $all-color-3
+        width 0.8775
+        &.active
+            color $all-color-1
+.m-product-details-top
+    border 1px solid $border-color-1
+    border-top 1px solid $all-color-1
+    font-size .28rem
+    padding 0.62rem .32rem 0.16rem 
+    box-shadow 0px 5px 20px #ccc
+    background-color #fff
+    overflow auto
+    position relative
+    z-index 1
+    .detail-up
+        padding 0 0.16rem
+        justify-content space-between
+        .rating-icon
+            i 
+                width .38rem
+                height .38rem
+                background url('~statics/mobileImages/orderReview/icon-start.png') no-repeat center
+                background-size 100%
+                opacity 1
+                &.active
+                    background url('~statics/mobileImages/orderReview/icon-start-active.png') no-repeat center
+                    background-size 100%
+        .q-rating 
+            i  
+                &+ i
+                    margin-left .12rem
+        .right
+            font-size 1.2rem
+            line-height 1rem
+            color #6dd6a9
+    .detail-down
+        margin-top 0.76rem
+        display flex
+        flex-wrap wrap
+        .item-wrapper
+            justify-content space-between
+            flex-wrap nowrap
+        .tag-item
+            padding 0 0.24rem
+            height 0.64rem
+            line-height 0.64rem
+            border 1px solid #e5e5e5
+            border-radius 0.32rem
+            margin-bottom 0.24rem
+            margin-right 0.1rem
+            .text
+                margin-right 0.32rem
+                white-space nowrap
+            em
+                font-style normal
+                font-size 0.24rem
+                color #b2b2b2
+            &.active
+                border 1px solid #6dd6a9

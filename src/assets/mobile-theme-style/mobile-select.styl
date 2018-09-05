@@ -1,0 +1,173 @@
+.register-page-mobile 
+    width 100vw
+    max-width 100%
+    min-height 100vh
+    position relative
+    .r-mobileTop
+        position fixed
+        top 0
+        left 0
+        z-index 2000  
+        .r-otherHeardBox
+            width 100vw
+            font-size 0.26rem 
+            >div
+                width 100%
+                height 1.28rem
+                background #fff
+                display flex
+                justify-content space-between
+                align-items center 
+                &.r-head>i:first-child
+                    background url('~statics/images/login-mobile/ico_back.png') center / 100% no-repeat   
+                &.r-head>i:last-child
+                    background none
+                >i
+                    width .48rem
+                    height .48rem
+                    margin 0 .36rem
+                    cursor pointer    
+                >span
+                    font-weight bold
+                    display flex
+                    justify-content center
+                    align-items center   
+    .r-mobileContent
+        min-height 100vh      
+        .r-signDiv
+            margin-top 1.76rem
+            font-size 0.26rem
+            position relative
+            width 100%
+            padding 0 0.24rem
+            >.r-signUp
+                >.main
+                    padding .16rem
+                    border-top 2px solid #252525
+                    display flex
+                    flex-direction column
+                    >.top
+                        width 100%
+                        height .64rem
+                        margin-top -.64rem
+                        >ul
+                            display flex
+                            list-style none
+                            padding 0
+                            margin 0
+                            >li
+                                font-size .26rem
+                                color #b2b2b2
+                                margin-right .6rem
+                                cursor pointer
+                                font-weight 600
+                            >.active
+                                font-weight bold
+                                color #252525 
+                    .input-group  
+                        margin .36rem 0
+                        position relative  
+                        .input-item
+                            height .92rem
+                            border 2px solid #e5e5e5
+                            display flex
+                            justify-content space-between
+                            align-items center
+                            &.error
+                                border 1px solid #e50017
+                                color #e50017 
+                            .points
+                                position absolute
+                                bottom 50px
+                                width 250px
+                                padding 16px
+                                background #fff
+                                border 1px solid #cccccc
+                                border-radius 2px
+                                &:before
+                                    content ' '
+                                    display block
+                                    width 10px
+                                    height 10px
+                                    background #fff
+                                    position absolute
+                                    bottom -5px
+                                    left 125px
+                                    transform  rotate(45deg)
+                                    border-bottom 1px solid #ccc
+                                    border-right 1px solid #ccc
+                                .points-title
+                                    margin-bottom 3px 
+                                p 
+                                    font-size 12px
+                                    color #666
+                                    margin-bottom 0 
+                                    span
+                                        letter-spacing 0px    
+                        input
+                            width 100%
+                            outline none
+                            border none  
+                            height 100%
+                            padding-left 0.32rem
+                        .errMessage
+                            font-size .26rem
+                            color #e50017
+                            letter-spacing 0
+                            height auto
+                            text-align left
+                            line-height: 0.3rem
+                            word-wrap break-word
+                            margin-bottom 0.1rem                                
+                        .sendVerification
+                            min-width 2rem
+                            height 100%
+                            flex-shrink 0
+                            padding 0.05rem
+                            border none
+                            border-left 2px solid #e5e5e5
+                            display flex
+                            justify-content center
+                            align-items center
+                            cursor pointer    
+                            background-color #fff 
+                            outline none
+                            span
+                                font-weight 600
+                                color #252525
+                                letter-spacing 0px 
+                    a
+                        width 100%
+                        padding 0.24rem 0   
+                        span
+                            width 100%
+                            height 0.96rem
+                            margin 0.32rem 0 0.28rem
+                            font-size 0.32rem
+                            border-radius 0.48rem
+                            background #252525
+                            color #fff
+                            display flex
+                            justify-content center
+                            align-items center
+                            cursor pointer  
+                    .signTip
+                        width 100%
+                        display flex
+                        justify-content space-between
+                        align-items center
+                        >span
+                            color #66bbff
+                            &:last-child
+                                color #252525
+                                font-weight bold
+                                cursor pointer
+                                display flex
+                                justify-content space-between
+                                align-items center
+                                >i
+                                    width .12rem
+                                    height .2rem
+                                    margin 0 .16rem
+                                    background url('~statics/images/login-mobile/ico_arrow.png') center / 100% no-repeat         
+     

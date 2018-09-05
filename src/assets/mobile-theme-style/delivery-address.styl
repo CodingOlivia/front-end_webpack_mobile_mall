@@ -1,0 +1,92 @@
+ .zldeliveryadresses
+        .zlhead
+            display: flex
+            justify-content space-between
+            align-items center
+            padding 0.68rem 0 0.96rem
+            font-size 0.34rem
+            margin: 0 0.24rem;
+            border-bottom 2px solid $all-color-1 
+            i
+                display inline-block
+                height 0.34rem
+                width 0.4rem
+            .icon-back
+                background url('~statics/images/wishlist/ico_back.png') center / 100% no-repeat
+            .icon-add
+                background url('~statics/images/wishlist/add.png') center / 100% no-repeat
+            span
+                display inline-block
+                font-size 0.34rem
+                line-height 0.34rem
+                text-align center  
+        .zlmain
+            padding 0 0.24rem
+            .zlcard-wrapper
+                &:first-child
+                    box-shadow 0 0.2rem 0.4rem rgba(0,0,0,0.1)     
+            .zlcard
+                box-sizing border-box
+                padding 0.48rem 0.24rem 0
+                border 0.01rem solid #e5e5e5
+                margin-bottom 0.4rem
+                .mymain
+                    position relative
+                    padding-bottom 1rem
+                    .myinfo 
+                        h2
+                            line-height 0.28rem
+                            font-size 0.28rem
+                            padding 0
+                            margin 0
+                            margin-bottom 0.32rem
+                            letter-spacing 0.5px
+                            word-wrap break-word
+                        p
+                            line-height 0.36rem
+                            font-size 0.22rem
+                            padding 0
+                            margin 0
+                            color $all-color-3
+                            letter-spacing 0.5px
+                            word-wrap break-word
+                    .mystar
+                        position absolute
+                        top 0
+                        right 0.08rem
+                        width 0.38rem
+                        height 0.38rem
+                        background url('~statics/images/orderDetail/icon-start.png') center / 100% no-repeat
+                .mysave
+                    padding 0.3rem 0.16rem 0.3rem 0.08rem
+                    border-top 1px solid #e5e5e5
+                    align-items center
+                    .mysavem
+                        height 0.36rem
+                        display flex
+                        justify-content space-between
+                        .left  
+                            display flex
+                            align-items center                                            
+                            i
+                                display inline-block
+                                width 0.32rem
+                                height 0.32rem
+                                background url('../statics/mobileImages/checkOut/icon_un_prevision.png') center / 100% no-repeat
+                                &.active
+                                    background url("../statics/mobileImages/checkOut/ico_provision.png") center / 100% no-repeat  
+                        .right
+                            font-size 0
+                            i
+                                display inline-block
+                                width 0.32rem
+                                height 0.32rem
+                            .edit-icon
+                                background url('../statics/images/wishlist/edit.png') center / 100% no-repeat
+                            .del-icon
+                                background url('../statics/images/Myorder/ico_del.png') center / 100% no-repeat
+                &.active
+                    border 1px solid $all-color-1
+
+           
+           

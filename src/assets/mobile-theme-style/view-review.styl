@@ -1,0 +1,189 @@
+.view-review
+  .container
+    padding 0 0.24rem 0.35rem 0.24rem
+  .card-wrapper
+    padding 0.32rem 0.4rem
+    position relative
+    border 1px solid #e5e5e5
+  .card-top
+    .left
+      display inline-block
+      width 1.36rem
+      height 1.36rem
+      background-color #f0f0f0
+      vertical-align top
+      border-radius 50%
+      img
+        width 100%
+        height 100%
+        border-radius 50%
+    .right
+      display inline-block
+      vertical-align top
+      font-size 0
+      p
+        margin 0
+        line-height 0.36rem
+      .rating-icon
+        margin-top 0.16rem
+        i
+          width .38rem
+          height .38rem
+          background url('~statics/mobileImages/orderReview/icon-start.png') no-repeat center
+          background-size 100%
+          &.active
+            background url('~statics/mobileImages/orderReview/icon-start-active.png') no-repeat center
+            background-size 100%
+        i + i
+          margin-left 0.12rem
+      .date
+        margin-top 0.16rem
+  .status
+    display inline-block
+    width 1.56rem
+    height 1.58rem
+    position absolute
+    top 0
+    right 0
+    text-align center
+    em
+      font-family 'KhmerMN'
+      font-size .32rem
+      font-style normal
+      position absolute
+      display inline-block
+      line-height .3rem
+      top 50%
+      transform: translateY(-45%) rotateZ(33deg);
+      width 100%
+      text-align center
+      left 0
+      word-wrap break-word    
+      font-weight bold      
+  .status1
+    background url("~statics/unreviewed.png") center  no-repeat
+    background-size 100% 100%
+    color #b3b3b3
+    em 
+      font-size .30rem
+  .status2
+    background url("~statics/pass.png") center  no-repeat
+    background-size 100% 100%
+    color #6dd6a9
+    em
+      
+      letter-spacing .06rem
+      padding-left .08rem
+  .status3
+    background url("~statics/Reject.png") center  no-repeat
+    background-size 100% 100%
+    color #e94374
+    em
+      font-size .32rem
+  .rating-desc
+    margin 0
+    padding 0.28rem 0
+    line-height 0.36rem
+    word-wrap break-word
+  .text-desc
+    padding 0 0.32rem 0.32rem
+    margin-top 0.60rem
+    font-size 0
+    background-color #fafafa
+    position relative   
+    .comments-title
+      color #ff377d
+      width 100% 
+    .comments-content
+      color #666666   
+    .txt
+      width 100%
+      line-height 0.4rem
+      word-wrap break-word    
+  .list-box
+    margin -0.05rem
+    margin-top 0.19rem      
+    .list-item
+      float left
+      height 2.08rem
+      width 33.33%
+      padding 0.05rem
+      box-sizing border-box
+      .img-wrap
+        background-color #f0f0f0
+        width 100%
+        height 100%
+        padding 0.24rem
+        display flex
+        justify-content center
+        align-items center
+        img
+          max-width 100%
+          max-height 100%
+  .hint-text
+    background-color #ff2973
+    width 100%
+    padding 0.24rem
+    text-align center
+    margin-top 0.36rem
+    p
+      color #fff
+      font-size 0.22rem
+      margin 0
+      padding 0
+      line-height 1.5
+    .title
+      font-weight bold
+      letter-spacing: 0.5px;  
+  .zl-preview    
+    position fixed
+    top 0
+    left 0
+    width 100%
+    height 100%
+    background #ffffff
+    box-sizing border-box
+    padding-top 1.84rem 
+    padding-bottom 3.33rem     
+    .currentpage
+      width 100%
+      height 1.84rem
+      line-height 1.84rem
+      background #252525
+      color #ffffff
+      text-align center
+      font-size 0.28rem
+      font-weight bold
+      position absolute
+      top 0
+      left 0
+    .commentcontent
+      width 100%      
+      position absolute
+      bottom 0
+      left 0 
+      background #252525 
+      color #ffffff 
+      font-size 0.26rem
+      box-sizing border-box
+      padding 0.7rem 0.3rem 0 
+      letter-spacing 0.5px
+      line-height 0.5rem       
+    .swiper-container
+      width 100%
+      height 7.84rem     
+      .swiper-wrapper
+        width 100%
+        height 100%
+        .swiper-slide-next
+          width 0
+        .swiper-slide
+          width 100%
+          height 100%
+          display flex
+          justify-content center
+          align-items center                  
+          img 
+            vertical-align top           
+            width 3.26rem
+            height 6.48rem

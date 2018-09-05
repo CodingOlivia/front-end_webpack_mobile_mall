@@ -1,0 +1,133 @@
+.package-wrap
+   background #fff
+   padding-bottom 1px
+   margin-top 10px
+   font-size 16px
+   .package-title
+      color $font-color-5
+      text-align center
+   .package-detail
+      text-align center
+      color $font-color-5
+      padding 16px
+   .package-list
+      white-space nowrap
+      width calc(100% - 32px)
+      margin 16px 
+      padding-bottom 25px
+      overflow-x auto
+      .package-item
+          background #fff
+          padding 16px
+          box-shadow 5px 5px 10px $border-color-1
+          border  1px solid $border-color-1
+          border-top  1px solid $all-color-1 
+          display inline-flex
+          align-items  center
+          margin-right 16px
+          width calc(90vw - 32px)
+          .package-img
+             width 80px
+             height 80px
+             margin-right 10px
+             text-align center
+             position relative
+             img 
+               max-width 100%
+               max-height 100%
+               position relative
+               top 50%
+               transform translateY(-50%)
+             .package-count
+               position absolute 
+               bottom 0
+               left 0
+               background $all-color-1
+               color $all-color-2
+               text-align center
+               padding 2px
+               width 100%
+               font-size 10px
+           .package-info
+               flex 1
+               overflow hidden
+               .shippingNo
+                  margin-top 5px
+                  font-size 12px
+                  color $font-color-5
+                  word-break break-all
+
+.delivery-process-wrapper
+  
+  .title
+    font-size 16px
+    color #333
+    padding 20px 15px 10px
+  .content
+    background #fff
+    .delivery-process-con
+      padding 8px
+      padding-bottom 24px
+      width 100%
+      overflow hidden
+      .delivery-process-item
+         position relative
+         padding-left 24px
+         margin-left 24px
+         padding-bottom 24px
+         &:after
+           content ''
+           display block
+           position absolute 
+           width 100%
+           left 24px
+           bottom 12px
+           border-bottom  1px solid $border-color-1
+         &:last-child
+            padding-bottom 0px
+            &:after
+               opacity 0
+         &.active
+            color $positive
+            .delivery-process-line-top
+               background $positive !important
+            .delivery-process-icon-text
+               border-color $positive!important
+               background $positive!important  
+         .delivery-process-right
+            overflow hidden
+            p
+              line-height 1.5em
+              margin-bottom 5px
+              margin-top 0
+              font-size 16px
+         .delivery-process-icon
+            position absolute
+            top 0
+            left 0
+            height 100%
+            .delivery-process-line-top
+               position absolute
+               width 2px
+               background #cccccc
+               height 15px
+               top 0
+               left 0
+            .delivery-process-icon-text
+               position absolute
+               width 14px
+               height 14px
+               background #ccc
+               border-radius 50%
+               border 2px solid #fff
+               top 15px
+               left -6px
+            .delivery-process-line-bottom
+               position absolute
+               width 2px
+               background #cccccc
+               height calc(100% - 29px)
+               top 29px
+               left 0
+               &.active
+                 background $positive!important  

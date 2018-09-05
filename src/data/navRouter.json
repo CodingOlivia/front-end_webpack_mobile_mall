@@ -1,0 +1,28 @@
+{
+  "router": [
+    {
+      "name": "Home",
+      "to": "/Home"
+    },
+    {
+      "name": "Search",
+      "to": "/Market/Search"
+    },
+    {
+      "name": "Shoppingbag",
+      "to": "/Market/Shoppingbag"
+    },
+    {
+      "name": "Checkout",
+      "to": "/Market/Checkout"
+    },
+    {
+      "name": "Payment",
+      "to": "/Market/Payment"
+    },
+    {
+      "name": "MyOrder",
+      "to": "/Order/MyOrder"
+    }
+  ]
+}

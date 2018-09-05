@@ -1,0 +1,107 @@
+.addressTableDiv
+   .is-danger
+       display block
+       padding 16px
+       position fixed
+       background rgba(0,0,0,.4)
+       width 90%
+       margin 0 auto
+       top 50%
+       border-radius 30px
+       color #fff
+       text-align center
+       font-size 16px
+       animation tipMessage 3s
+       z-index 5
+       opacity 0
+.checkOutDiv 
+    &>.checkOutOrder 
+        &>.main 
+           &>li 
+              &>div 
+                 &>div.right 
+                    flex 1
+                    overflow hidden
+                    &>div 
+                       .attrName
+                          flex 1
+              &.bottom
+                 .right 
+                    &>.priceTotal
+                        padding-right .1rem
+    >.payBtn
+       z-index 100!important
+
+html[app=mobile], html[app=mobile] body
+html[app=mobile] body
+  .addressTableDiv
+    >.table
+        >.main
+            -ms-border 1px solid #e5e5e5
+            -moz-border 1px solid #e5e5e5
+            -webkit-border 1px solid #e5e5e5
+            -o-border 1px solid #e5e5e5
+            border 1px solid #e5e5e5
+            >div
+                -ms-border-bottom 1px solid #e5e5e5
+                -moz-border-bottom 1px solid #e5e5e5
+                -webkit-border-bottom 1px solid #e5e5e5
+                -o-border-bottom 1px solid #e5e5e5
+                border-bottom 1px solid #e5e5e5
+  .checkOutDiv
+     .checkOutOrder
+        border none
+     .checkShare
+        padding .45rem .25rem
+        border 1px solid $border-color-1
+        .left
+          font-weight bold
+          color $all-color-1
+        .right
+          text-align right
+          span
+            color $all-color-3
+        i
+          display inline-block
+          width .12rem
+          height .2rem
+          margin 0 .08rem 0 .24rem
+          background url('~statics/mobileImages/commerce/ico_arrow_R.png') center no-repeat
+          background-size 100% 100%
+          vertical-align middle
+  .checkShare-wrap
+    margin-top 1.12rem
+    font-size .32rem
+    padding 0 .24rem
+    background #fff
+    .check-hr
+      padding-top .48rem
+      border-bottom 2px solid $all-color-1
+    .checkShare-inner
+      padding 0 20px
+    .share-footer
+      margin-top .60rem
+      padding 0 .4rem
+      .btn 
+          height .93rem
+          border-radius: .5rem
+          background-color $all-color-1
+          color #fff
+          font-size .32rem
+          text-align center
+          line-height .93rem
+          cursor pointer 
+          &.disable
+              background-color $border-color-1
+              color $all-color-2
+@keyframes tipMessage
+    0% 
+        opacity 1
+        z-index 5
+    80% 
+        opacity 1
+        z-index 5
+    100% 
+        opacity 0
+        z-index -5
+

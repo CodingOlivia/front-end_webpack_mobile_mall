@@ -1,0 +1,35 @@
+{
+	"history": [
+		{
+			"text": "iPhone X",
+			"url": ""
+		}
+	],
+	"topSearch": [
+		{
+			"text": "Huawei Mate 10",
+			"url": "",
+			"times": 10
+		},
+		{
+			"text": "Huawei",
+			"url": "",
+			"times": 5
+		},
+		{
+			"text": "VR",
+			"url": "",
+			"times": 4
+		},
+		{
+			"text": "Others",
+			"url": "",
+			"times": 2
+		},
+		{
+			"text": "Sample tag",
+			"url": "",
+			"times": 1
+		}
+	]
+}

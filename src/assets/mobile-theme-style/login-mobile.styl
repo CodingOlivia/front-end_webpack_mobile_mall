@@ -1,0 +1,243 @@
+.sign-page-mobile 
+    width 100vw
+    max-width 100%
+    min-height 100vh
+    position relative
+    .r-mobileTop
+        position fixed
+        top 0
+        left 0
+        z-index 2000  
+        .r-otherHeardBox
+            width 100vw
+            font-size 0.26rem 
+            >div
+                width 100%
+                height 1.28rem
+                background #fff
+                display flex
+                justify-content space-between
+                align-items center 
+                .back
+                    width .48rem
+                    height .48rem
+                    margin 0 .36rem
+                    cursor pointer                        
+                >i
+                    background none
+                    width .48rem
+                    height .48rem
+                    margin 0 .36rem
+                    cursor pointer    
+                >span
+                    font-weight bold
+                    display flex
+                    justify-content center
+                    align-items center   
+    .r-mobileContent
+        min-height 100vh      
+        .r-div
+            margin-top 1.16rem
+            font-size 0.26rem
+            position relative
+            width 100%
+            padding 0 0.24rem
+            >.r-div-item
+                >.main
+                    padding .16rem
+                    display flex
+                    flex-direction column
+                    >.top
+                        width 100%
+                        height .64rem
+                        margin-top -.64rem
+                        >ul
+                            display flex
+                            list-style none
+                            padding 0
+                            margin 0
+                            >li
+                                font-size .26rem
+                                color #b2b2b2
+                                margin-right .6rem
+                                cursor pointer
+                                font-weight 600
+                            >.active
+                                font-weight bold
+                                color #252525 
+                    .hint-img
+                        position: relative
+                        height auto
+                        margin-bottom -10px
+                        .msg-error
+                            position relative
+                            background #ffebeb
+                            color #e4393c
+                            border 1px solid #faccc6
+                            padding 3px 10px 3px 30px
+                            height auto
+                            text-align left
+                            font-size 12px
+                            b
+                                position absolute
+                                top 50%
+                                left 10px
+                                display block
+                                margin-top -6px
+                                width 13px
+                                height 13px
+                                overflow hidden  
+                            span
+                                letter-spacing 0 
+                    .pc-un-input
+                        .input-label
+                            font-size 14px
+                            color #999
+                    .hint-wrap
+                        margin-bottom -20px
+                        margin-top -20px
+                        .points
+                            background #fff
+                            padding 4px 0
+                            .points-title
+                                margin-bottom 3px
+                                font-size 14px
+                            p
+                                font-size 12px
+                                color #666
+                                margin-bottom 0
+                                line-height 20px
+                                &.active
+                                    color #5fb870
+                                span
+                                    margin-left 3px      
+                    .fade-enter-active
+                        transition all 1s ease
+                    .fade-leave-active
+                        transition all 2s ease
+
+                    .fade-enter
+                        opacity 0
+                        max-height 0
+                    .fade-enter-to
+                        max-height 200px
+
+                    .fade-leave
+                        opacity 0
+                        max-height 200px
+
+                    .fade-leave-to
+                        opacity 0
+                        max-height 0                           
+                    .input-group  
+                        margin .36rem 0
+                        position relative  
+                        .input-item
+                            height .92rem
+                            padding-left .32rem
+                            border 2px solid #e5e5e5
+                            display flex
+                            justify-content space-between
+                            align-items center
+                            &.error
+                                border 1px solid #e50017
+                                color #e50017 
+                            .code
+                                width 2rem
+                                height 100%
+                                flex-shrink 0
+                                margin-left 0.2rem
+                                padding 0.16rem
+                                border-left 2px solid #e5e5e5
+                                display -ms-flexbox
+                                display flex
+                                justify-content center
+                                align-items center
+                                cursor pointer                            
+                        input
+                            width 100%
+                            outline none
+                            border none  
+                        .errMessage
+                            font-size .26rem
+                            color #e50017
+                            letter-spacing 0
+                            height auto
+                            text-align left
+                            line-height: 0.3rem
+                            word-wrap break-word
+                            margin-bottom 0.1rem                                
+                        .sendVerification
+                            min-width 2rem
+                            height 100%
+                            flex-shrink 0
+                            padding 0.05rem
+                            border none
+                            border-left 2px solid #e5e5e5
+                            display flex
+                            justify-content center
+                            align-items center
+                            cursor pointer    
+                            background-color #fff 
+                            outline none
+                            span
+                                font-weight 600
+                                color #252525
+                                letter-spacing 0px 
+                    .btn-forgotpsw
+                        width 100%
+                        padding 0.24rem 0   
+                        span
+                            width 100%
+                            height 0.96rem
+                            margin 0.62rem 0 0.38rem
+                            font-size 0.32rem
+                            border-radius 0.48rem
+                            background #252525
+                            color #fff
+                            display flex
+                            justify-content center
+                            align-items center
+                            cursor pointer
+                    .signTip
+                        width 100%
+                        display flex
+                        justify-content space-between
+                        align-items center
+                        >span
+                            color #66bbff
+                            &:last-child
+                                color #252525
+                                font-weight bold
+                                cursor pointer
+                                display flex
+                                justify-content space-between
+                                align-items center
+                                >img
+                                    width .12rem
+                                    height 0.2rem
+                                    margin 0 0.16rem
+                    .bottom
+                        width 100%
+                        padding 1.2rem 0   
+                        .bottomDesc
+                            display flex  
+                            justify-content space-between
+                            align-items center   
+                            i
+                                width 100%
+                                height 2px
+                                background #e5e5e5   
+                            span
+                                padding 0 0.32rem
+                                flex-shrink 0   
+                        .bottomImage
+                            display flex  
+                            justify-content center
+                            align-items center  
+                            img
+                                margin 0.36rem
+                                width 0.64rem
+                                height 0.52rem
+                                cursor pointer 
+                 

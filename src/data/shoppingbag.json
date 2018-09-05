@@ -1,0 +1,62 @@
+[{
+  "id": 0,
+  "name": "HUAWEI VR",
+  "image": "statics/images/Homepage/featured1.png",
+  "src": "?hot=1",
+  "price": "1299",
+  "type": "Accessories",
+  "byStages": true,
+  "setMeals": [{
+    "id": 1000000,
+    "name": "HUAWEI VR",
+    "image": "statics/images/Homepage/featured1.png",
+    "price": "440",
+    "monthly": "3",
+    "attr": {
+      "Voice": "300 min",
+      "SMS": "unlimited",
+      "Data": "20 GB"
+    }
+  }, {
+    "id": 1000001,
+    "name": "HUAWEI VR",
+    "image": "statics/images/Homepage/featured1.png",
+    "price": "230",
+    "monthly": "6",
+    "attr": {
+      "Voice": "300 min",
+      "SMS": "unlimited",
+      "Data": "20 GB"
+    }
+  }, {
+    "id": 1000002,
+    "name": "HUAWEI VR",
+    "image": "statics/images/Homepage/featured1.png",
+    "price": "115",
+    "monthly": "12",
+    "attr": {
+      "Voice": "300 min",
+      "SMS": "unlimited",
+      "Data": "20 GB"
+    }
+  }],
+  "attr": {
+    "Memory": "256GB",
+    "Primary": "198 Bundle",
+    "Color": "Space gray"
+  },
+  "describe": "ETVR Upgraded 3D VR Glasses for Movies and Games with Stereo Headphone - More Lightweight Virtual Reality Headset with 120 Degree FOV",
+  "number": 1,
+  "setMeal": {
+    "id": 1000000,
+    "name": "HUAWEI VR",
+    "image": "statics/images/Homepage/featured1.png",
+    "price": "440",
+    "monthly": "3",
+    "attr": {
+      "Voice": "300 min",
+      "SMS": "unlimited",
+      "Data": "20 GB"
+    }
+  }
+}]

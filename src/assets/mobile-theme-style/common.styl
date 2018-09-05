@@ -1,0 +1,714 @@
+@font-face
+  font-family 'HelveticaNeue-Medium'
+  src:  url('../statics/font/HelveticaNeue-Medium.eot')     
+  src:  url(../statics/font/HelveticaNeue-Medium.eot?#iefix) format('embedded-opentype'),
+        url(../statics/font/HelveticaNeue-Medium.otf) format('truetype'),
+        url(../statics/font/HelveticaNeue-Medium.woff) format('woff'),
+        url(../statics/font/HelveticaNeue-Medium.svg) format('svg')
+@font-face
+  font-family 'KhmerMN'
+  src:  url('../statics/font/KhmerMN.ttf') 
+/* 清除浮动 */
+.m-ytx-clearfix
+    zoom 1
+    &:after
+        content ''
+        height 0
+        line-height 0
+        display block
+        clear both
+        visibility hidden
+
+
+
+/* 背景色 */
+.m-ytx-m-bg3
+    background-color $background-color-3!important
+.m-ytx-m-bg4
+    background-color $background-color-4!important
+.m-ytx-m-bg5
+    background-color $background-color-5!important
+
+/* $background-color-3 = #f9f9f9
+$background-color-4 = #6dd6a9
+$background-color-5 = #f9f9f9 */
+$background-color-7=#292929
+/* 字体颜色 */
+.m-allcolor1
+    color $all-color-1
+.m-allcolor2
+    color $all-color-2
+.m-allcolor3
+    color $all-color-3
+.m-fontcolor3
+    color $font-color-3
+.m-fontcolor4
+    color $font-color-4
+.m-fontcolor5
+    color $font-color-5
+    
+/* 
+$all-color-1 = #252525
+$all-color-2 = #fff
+$all-color-3 = #b2b2b2
+$font-color-3 = #c1c0bf
+$font-color-4 = #6abcfc
+$font-color-5 = #666 */
+
+/* 字体 */
+.m-family-medium 
+    font-family HelveticaNeue-Medium
+
+/* 粗体 */
+.m-weight-bold
+    font-weight bold
+    font-family HelveticaNeue
+
+/* 字体大小 */
+.m-size20
+    font-size 0.20rem
+.m-size22
+    font-size 0.22rem
+.m-size24
+    font-size 0.24rem
+.m-size26
+    font-size 0.26rem
+.m-size28
+    font-size 0.28rem
+.m-size36
+    font-size 0.36rem
+.m-size48
+    font-size 0.48rem
+
+
+/* 外边距 */
+.m-ytx-m-none
+    margin 0
+.m-ytx-m-none-top
+    margin-top 0!important
+.m-ytx-s-mt
+    margin-top 0.08rem
+.m-ytx-s-mb
+    margin-bottom 0.08rem
+.m-ytx-s-ml
+    margin-left 0.08rem
+.m-ytx-s-mr
+    margin-right 0.08rem
+.m-ytx-m-s-all
+    margin 0.08rem
+.m-ytx-m-s-tb
+    margin-top 0.08rem
+    margin-bottom 0.08rem
+.m-ytx-m-s-lr
+    margin-left 0.08rem
+    margin-right 0.08rem
+
+.m-ytx-mt
+    margin-top 0.16rem
+.m-ytx-mb
+    margin-bottom 0.16rem
+.m-ytx-ml
+    margin-left 0.16rem
+.m-ytx-mr
+    margin-right 0.16rem
+.m-ytx-m-all
+    margin 0.16rem
+.m-ytx-m-tb
+    margin-top 0.16rem
+    margin-bottom 0.16rem
+.m-ytx-m-lr
+    margin-left 0.16rem
+    margin-right 0.16rem
+
+.m-ytx-x-mt
+    margin-top 0.24rem
+.m-ytx-x-mb
+    margin-bottom 0.24rem
+.m-ytx-x-ml
+    margin-left 0.24rem
+.m-ytx-x-mr
+    margin-right 0.24rem
+.m-ytx-m-x-all
+    margin 0.24rem
+.m-ytx-m-x-tb
+    margin-top 0.24rem
+    margin-bottom 0.24rem
+.m-ytx-m-x-lr
+    margin-left 0.24rem
+    margin-right 0.24rem
+
+.m-ytx-xx-mt
+    margin-top 0.32rem
+.m-ytx-xx-mb
+    margin-bottom 0.32rem
+.m-ytx-xx-ml
+    margin-left 0.32rem
+.m-ytx-xx-mr
+    margin-right 0.32rem
+.m-ytx-m-xx-all
+    margin 0.32rem
+.m-ytx-m-xx-tb
+    margin-top 0.32rem
+    margin-bottom 0.32rem
+.m-ytx-m-xx-lr
+    margin-left 0.32rem
+    margin-right 0.32rem
+
+.m-ytx-xxx-mt
+    margin-top 0.4rem
+.m-ytx-xxx-mb
+    margin-bottom 0.4rem
+.m-ytx-xxx-ml
+    margin-left 0.4rem
+.m-ytx-xxx-mr
+    margin-right 0.4rem
+.m-ytx-m-xxx-all
+    margin 0.4rem
+.m-ytx-m-xxx-tb
+    margin-top 0.4rem
+    margin-bottom 0.4rem
+.m-ytx-m-xxx-lr
+    margin-left 0.4rem
+    margin-right 0.4rem
+
+.m-ytx-xxxx-mt
+    margin-top 0.48rem
+.m-ytx-xxxx-mb
+    margin-bottom 0.48rem
+.m-ytx-xxxx-ml
+    margin-left 0.48rem
+.m-ytx-xxxx-mr
+    margin-right 0.48rem
+.m-ytx-m-xxxx-ALL
+    margin 0.48rem
+.m-ytx-m-xxxx-tb
+    margin-top 0.48rem
+    margin-bottom 0.48rem
+.m-ytx-m-xxxx-lr
+    margin-left 0.48rem
+    margin-right 0.48rem
+
+
+
+/* 内边距 */
+.m-ytx-p-none
+    padding 0
+.m-ytx-s-pt
+    padding-top 0.08rem
+.m-ytx-s-pb
+    padding-bottom 0.08rem
+.m-ytx-s-pl
+    padding-left 0.08rem
+.m-ytx-s-pr
+    padding-right 0.08rem
+.m-ytx-p-s-all
+    padding 0.08rem
+.m-ytx-p-s-tb
+    padding-top 0.08rem
+    padding-bottom 0.08rem
+.m-ytx-p-s-lr
+    padding-left 0.08rem
+    padding-right 0.08rem
+
+.m-ytx-pt
+    padding-top 0.16rem
+.m-ytx-pb
+    padding-bottom 0.16rem
+.m-ytx-pl
+    padding-left 0.16rem
+.m-ytx-pr
+    padding-right 0.16rem
+.m-ytx-p-all
+    padding 0.16rem
+.m-ytx-p-tb
+    padding-top 0.16rem
+    padding-bottom 0.16rem
+.m-ytx-p-lr
+    padding-left 0.16rem
+    padding-right 0.16rem
+
+.m-ytx-x-pt
+    padding-top 0.24rem
+.m-ytx-x-pb
+    padding-bottom 0.24rem
+.m-ytx-x-pl
+    padding-left 0.24rem
+.m-ytx-x-pr
+    padding-right 0.24rem
+.m-ytx-p-x-all
+    padding 0.24rem
+.m-ytx-p-x-tb
+    padding-top 0.24rem
+    padding-bottom 0.24rem
+.m-ytx-p-x-lr
+    padding-left 0.24rem
+    padding-right 0.24rem
+
+.m-ytx-xx-pt
+    padding-top 0.32rem
+.m-ytx-xx-pb
+    padding-bottom 0.32rem
+.m-ytx-xx-pl
+    padding-left 0.32rem
+.m-ytx-xx-pr
+    padding-right 0.32rem
+.m-ytx-p-xx-all
+    padding 0.32rem
+.m-ytx-p-xx-tb
+    padding-top 0.32rem
+    padding-bottom 0.32rem
+.m-ytx-p-xx-lr
+    padding-left 0.32rem
+    padding-right 0.32rem
+
+.m-ytx-xxx-ptm-ytx-xxx-pt
+    padding-top 0.4rem
+.m-ytx-xxx-pb
+    padding-bottom 0.4rem
+.m-ytx-xxx-pl
+    padding-left 0.4rem
+.m-ytx-xxx-pr
+    padding-right 0.4rem
+.m-ytx-p-xxx-all
+    padding 0.4rem
+.m-ytx-p-xxx-tb
+    padding-top 0.4rem
+    padding-bottom 0.4rem
+.m-ytx-p-xxx-lr
+    padding-left 0.4rem
+    padding-right 0.4rem
+
+.m-ytx-xxxx-pt
+    padding-top 0.48rem
+.m-ytx-xxxx-pb
+    padding-bottom 0.48rem
+.m-ytx-xxxx-pl
+    padding-left 0.48rem
+.m-ytx-xxxx-pr
+    padding-right 0.48rem
+.m-ytx-p-xxxx-ALL
+    padding 0.48rem
+.m-ytx-p-xxxx-tb
+    padding-top 0.48rem
+    padding-bottom 0.48rem
+.m-ytx-p-xxxx-lr
+    padding-left 0.48rem
+    padding-right 0.48rem
+
+/* 对齐方式 */
+.m-ytx-align-left
+    text-align left
+.m-ytx-align-right
+    text-align right
+.m-ytx-align-center
+    text-align center
+
+/* 定位 */
+.m-ytx-relative
+    position relative
+.m-ytx-absolute
+    position absolute
+.m-ytx-fixed
+    position fixed
+
+/* flex居中 */
+.m-ytx-flex-center
+    display flex
+    justify-content center
+    align-items center
+
+.m-ytx-flex
+    display flex
+
+.m-ytx-flex-align
+    align-items center
+
+/* flex-column */
+.m-ytx-flex-column
+    display: flex
+    flex-direction: column
+    align-items: center
+
+/* 大按钮样式 */
+.m-btn-large
+    display inline-block
+    height 0.96rem
+    line-height 0.96rem
+    width 100%
+    outline none
+    border 0 
+    border-radius 1rem
+    background-color $all-color-1
+    color #fff
+    font 0.32rem HelveticaNeue-Medium
+    text-transform uppercase
+    cursor pointer
+    text-align center
+    line-height .96rem
+    &.disabled
+       background #e6e6e6
+       color $all-color-3
+
+    
+.m-ytx-btn-white
+    border 1px solid $border-color-1 !important
+    background-color #fff !important
+    color $all-color-1 !important
+
+
+/* input框样式 */
+    .ytx-input-disabled
+        background-color #f0f0f0
+    .ytx-input
+        height 0.96rem
+        border 1px solid $border-color-1
+        margin-top 0.16rem
+        line-height 0.96rem
+        input
+            height 100%
+            outline none
+            border 0
+            padding-left 0.24rem
+            padding-right 0.82rem
+            color $all-color-1
+            font 0.28rem HelveticaNeue
+            width 100%
+            vertical-align top
+        .eye-password
+            position absolute
+            right 0.24rem
+            top 50%
+            transform translateY(-50%)
+            display inline-block
+            height 0.4rem
+            width 0.4rem
+            background url("~statics/eye-close.png") center center no-repeat
+            &.active
+                background url("~statics/eye-open.png") center center no-repeat
+ 
+
+
+
+
+html[app=mobile] body
+    .q-popover
+        margin-left 0
+        border 1px solid #e5e5e5
+    .q-list
+        .q-item
+            width 100%
+    .nav-title
+      position fixed
+      text-align center
+      line-height 0.5rem
+      top 0
+      left 0
+      width 100%
+      background $all-color-2
+      z-index 5
+      font-size 0.16rem
+      i
+         font-size 0.16rem!important
+         display inline!important
+      .back
+         position absolute
+         left 0.16rem
+         font-size 0.2rem
+         top 0px
+      .nav-rigth
+         position absolute
+         right 0.16rem
+         font-size 0.2rem
+         top 0px 
+    .q-datetime
+       font-size 0.16rem
+       .q-datetime-weekdays 
+          div
+            font-size 0.16rem
+       .q-datetime-datestring 
+            font-size 0.27rem
+            span
+                &.small
+                  font-size 0.12rem
+       .q-datetime-weekdaystring
+           font-size 0.3rem
+    .mobile-y-inp
+        width 100%
+        height 0.94rem
+        box-sizing border-box
+        border 0.02rem solid #e5e5e5
+        display flex
+        align-items center
+        position relative
+        &.require:before
+            position absolute
+            left -.20rem
+            content '*'
+            color $negative
+            top .30rem
+        input
+            width calc(100% - 0.6rem)
+            padding 0 0 0 0.16rem
+            font 0.26rem HelveticaNeue
+            border none
+            outline none
+
+            &::-webkit-input-placeholder
+              color $all-color-3
+        i 
+            width .4rem
+            height .4rem
+            cursor pointer
+            background url('~statics/mobileImages/address/ico_close.png') center / 100% 100% no-repeat
+        .help
+            &.is-danger
+                display block
+                padding 16px
+                position fixed
+                background rgba(0,0,0,.4)
+                width 90%
+                margin 0 auto
+                top 50%
+                border-radius 30px
+                color #fff
+                text-align center
+                font-size 16px
+                animation tipMessage 3s
+                z-index 5
+                opacity 0
+        &.error
+           border 0.02rem solid #ff2973
+           z-index 2
+           color #ff2973
+           input
+              color #ff2973
+              &::-webkit-input-placeholder
+                 color #ff2973
+    .mobile-y-select
+        width 100%
+        height 0.94rem
+        box-sizing border-box
+        border 0.02rem solid #e5e5e5
+        padding 0 .16rem
+        font-size .26rem
+        position relative
+        &.require:before
+            position absolute
+            left -.20rem
+            content '*'
+            color $negative
+            top .30rem
+        .text-grey-5
+           color $all-color-3!important
+        &>div
+           height 0.94rem
+        .q-if-control
+            width .4rem
+            height .4rem
+            font-size 0
+            background url('~statics/mobileImages/checkOut/ico_down.png') center / 100% no-repeat
+        .is-danger
+            display block
+            padding 16px
+            position fixed
+            background rgba(0,0,0,.4)
+            width 90%
+            margin 0 auto
+            top 50%
+            border-radius 30px
+            color #fff
+            text-align center
+            font-size 16px
+            animation tipMessage 3s
+            z-index 5
+            opacity 0
+            height auto
+        &.error
+           border 0.02rem solid #ff2973
+           z-index 2
+           color #ff2973
+           .text-black
+              color #ff2973!important
+    .mb16
+       margin-bottom .16rem
+    .mobile-select-model
+        .mobile-select-title
+            font-size 18px
+            padding 16px
+            top 0
+            left 0
+            width 100%
+            background $all-color-2
+            z-index 5
+            text-align center
+            border-bottom 1px solid  $border-color-1 
+            .model-select-close
+                position absolute 
+                top 20px
+                right 16px
+                cursor pointer
+                width 16px
+                height 16px
+                display block
+                background url('~statics/sign/close.png') top center no-repeat
+                background-size 100%
+        .mobile-select-con
+            max-height 200px
+            min-height 100px
+            overflow-y auto
+            .mobile-select-item
+                padding 14px 16px
+                font-size 14px
+                cursor pointer
+                &.active
+                    color $positive 
+                    background $background-color-5
+.mobile-share-content
+    max-height none!important
+    .mobile-share-img
+        height 1.28rem
+        img
+            max-width 100%
+            max-height 100%
+    @keyframes tipMessage
+        0% 
+            opacity 1
+        80% 
+            opacity 1
+        100% 
+            opacity 0
+
+
+.back-to-top-style
+    width 0.6rem!important
+    height 0.6rem!important
+    min-height 0.6rem
+    outline none
+    border-radius 50%
+    border 0
+    background url('~statics/arrow-up.png')center center no-repeat
+    background-color rgba(0,0,0,.4)
+    background-size 0.3rem 0.3rem
+//弹框样式修改
+@media screen and (min-width 1280px)
+  .minimized
+    .modal-content
+      width 500px
+      box-shadow none
+      max-height 800px
+      .modal-header
+        padding 16px 30px
+        border-bottom 1px solid #f0f0f0
+        color #040000
+        font-family font-m
+      .modal-body
+        padding 26px 30px 27px 30px
+        color #333
+        font-family font-r
+        line-height 24px
+        white-space normal
+        word-break break-word
+      .modal-buttons
+        padding 0 30px 30px 30px
+        .q-btn
+          height 24px
+          line-height 24px
+          min-height 24px
+          min-width 80px
+          font-size 12px
+          box-shadow none
+          text-transform capitalize
+          &:hover
+            .q-focus-helper
+              opacity 0
+        .bg-primary
+          background  #1976d2!important
+        .q-btn-outline
+          background  #fff!important
+          .q-focus-helper
+            background  #fff!important
+  //提示框信息
+  .q-toast-container
+    position fixed
+    left 50%
+    bottom 50%
+    right auto
+    transform translate(-50%, 50%)!important
+    border-radius 8px
+    font-size 14px
+    font-family font-r
+    background #040000!important
+    .q-toast
+      background #040000!important
+      opacity 50%
+      width 500px
+      min-height 40px
+      margin 0
+      box-shadow none
+      i
+        display none
+      a
+        display none
+@media screen and (min-width:320px) and (max-width:639px)
+  .minimized
+    .modal-content
+      width 230px
+      box-shadow none
+      .modal-header
+        display none
+      .modal-body
+        padding 26px 20px 20px 20px
+        color #333
+        font-size 12px
+        font-family font-r
+        line-height 24px
+        white-space normal
+        word-break break-word
+      .modal-buttons
+        display flex
+        padding 0
+        border none
+        border-top 1px solid #e5e5e5
+        .q-btn
+          height 40px
+          line-height 40px
+          font-size 16px
+          box-shadow none
+          flex 1
+          background  #fff!important
+          margin-left 0
+          text-transform none
+          &:hover
+            .q-focus-helper
+              opacity 0
+        .q-btn-outline
+          border none
+          //color #333 !important
+          background  #fff!important
+          .q-focus-helper
+            background  #fff!important
+        .bg-primary
+          color #fff!important
+          border-right 1px solid #e5e5e5
+          background #1976d2 !important
+  //提示框信息
+  .q-toast-container
+    width 230px
+    min-height 40px
+    position fixed
+    left 50%
+    bottom 50%
+    transform translate(-50%, 50%)!important
+    background #040000!important
+    opacity 50%
+    border-radius 8px
+    font-size 14px
+    font-family font-r
+    .q-toast
+      i
+        display none
+      a
+        display none
+
+
+

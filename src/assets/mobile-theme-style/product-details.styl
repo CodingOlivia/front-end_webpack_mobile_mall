@@ -1,0 +1,194 @@
+.product-details
+  .container
+    padding 0 0.24rem
+  .card-wrapper
+    padding 0.32rem 0.4rem
+    position relative
+    border-top 1px solid #e5e5e5
+  .card-top
+    position relative
+    .left
+      display inline-block
+      width 1.36rem
+      height 1.36rem
+      background-color #f0f0f0
+      vertical-align top
+      border-radius 50%
+      img
+        width 100%
+        height 100%
+        border-radius 50%
+    .right
+      display inline-block
+      vertical-align top
+      font-size 0
+      p
+        margin 0
+        line-height 0.36rem
+      .rating-icon
+        margin-top 0.16rem
+        i
+          width .38rem
+          height .38rem
+          background url('~statics/mobileImages/orderReview/icon-start.png') no-repeat center
+          background-size 100%
+          &.active
+            background url('~statics/mobileImages/orderReview/icon-start-active.png') no-repeat center
+            background-size 100%
+        i + i
+          margin-left 0.12rem
+      .date
+        position absolute
+        right 0
+        top 0
+  .rating-desc
+    margin 0
+    padding 0.28rem 0
+    line-height 0.36rem
+    word-wrap break-word
+    span
+      line-height 0.36rem
+      color red
+      font-size 0.24rem
+      margin-left 0.2rem
+  .text-desc
+    padding 0.32rem
+    font-size 0
+    background-color #fafafa
+    position relative
+    &:before
+      content:''
+      display:inline-block
+      width 0.24rem
+      height 0.24rem
+      background-color #fafafa
+      position absolute
+      transform rotate(45deg)
+      top -0.13rem
+      left 0.3rem
+    .txt
+      line-height 0.4rem
+    .label
+      float left
+  .list-box
+    margin -0.05rem
+    margin-top 0.19rem
+    .list-item
+      float left
+      height 1.6rem
+      width 25%
+      padding 0.05rem
+      box-sizing border-box
+      .img-wrap
+        background-color #f0f0f0
+        width 100%
+        height 100%
+        padding 0.24rem
+        display flex
+        justify-content center
+        align-items center
+        img
+          max-width 100%
+          max-height 100%
+  .attr-wrapper
+    font-size 0
+    margin-top 0.32rem
+    .attr-tag
+      height 0.5rem
+      line-height 0.5rem
+      margin-right 0.16rem
+      display inline-block
+      padding 0 0.32rem
+      border 1px solid $border-color-1
+      color $all-color-3
+      border-radius 0.24rem
+      letter-spacing 0.5px
+.productsFooter
+    .productsFooter-left
+        .icon-cart
+          margin-left .3rem
+          background url('~statics/mobileImages/products/ico_m_cart.png') center / 80% no-repeat
+          &.active
+            background url('~statics/mobileImages/products/ico_m_cart2.png') center / 80% no-repeat
+html[app=mobile], html[app=mobile] body
+  font-size calc(10000vw / 750)
+  font-family HelveticaNeue
+html[app=mobile] body
+  .productOff
+      &>div:not(:first-child)
+         position relative
+         &:before
+           content ''
+           display block
+           width 100%
+           height 100%
+           top 0
+           right 0px
+           background rgba(255,255,255,.6)
+           z-index 1
+           position absolute
+      .ProBox6
+         .itemNumber
+            .ProNumber
+               background #e5e5e5
+  .mobileBox 
+     .mobileBottom
+        position relative
+        z-index 2
+  .zl-preview    
+    position fixed
+    top 0
+    left 0
+    width 100%
+    height 100%
+    background #ffffff
+    box-sizing border-box
+    padding-top 1.84rem 
+    padding-bottom 3.33rem 
+    z-index 999999    
+    .currentpage
+      width 100%
+      height 1.84rem
+      line-height 1.84rem
+      background #252525
+      color #ffffff
+      text-align center
+      font-size 0.28rem
+      font-weight bold
+      position absolute
+      top 0
+      left 0
+    .commentcontent
+      width 100%      
+      position absolute
+      bottom 0
+      left 0 
+      background #252525 
+      color #ffffff 
+      font-size 0.26rem
+      box-sizing border-box
+      padding 0.7rem 0.3rem 0 
+      letter-spacing 0.5px
+      line-height 0.5rem 
+      height 3.6rem      
+    .swiper-container
+      width 100%
+      height 7.84rem     
+      .swiper-wrapper
+        width 100%
+        height 100%
+        .swiper-slide-next
+          width 0
+        .swiper-slide
+          width 100%
+          height 100%
+          display flex
+          justify-content center
+          align-items center                  
+          img 
+            vertical-align top           
+            width 3.26rem
+            height 6.48rem  
+
+         
+         
